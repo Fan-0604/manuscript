@@ -63,6 +63,18 @@ blockquote{
 
 }
 
+.MAMMA{
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.OBOLO{
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+}
+
 .intro-2{
 	max-width: 600px;
 	margin-bottom: 20px;
@@ -286,6 +298,15 @@ blockquote{
 	margin-left: auto;
 }
 
+.article-name{
+	text-decoration: underline;
+	font-style: oblique;
+}
+
+.article-name:hover{
+	color: #1475E3;
+}
+
 .R2{
 	max-width: 600px;
 	width: 35%;
@@ -348,5 +369,6 @@ blockquote{
 	width: 35%;
 	margin-left: 13%;
 }
+
 
 
