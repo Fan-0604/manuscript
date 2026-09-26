@@ -1,3 +1,22 @@
+html{
+	font-family: sans-serif;
+}
+
+body{
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+	font-size: 1.25rem;
+	font-weight: 300;
+	line-height:1.6;
+}
+
+:root{
+	--hover-color: #FFB134;
+	--linkword-color:dodgerblue;
+	--linkword-text-decoration:underline;
+}
+
 h1{
 	text-transform: uppercase;
 	font-size: 5rem;
@@ -26,40 +45,41 @@ h2{
 }
 
 .telegram{
-	text-decoration: underline;
-	color: dodgerblue;
+	color: var(--linkword-color);
+	text-decoration: var(--linkword-text-decoration);
 }
 
 .legibility{
-	text-decoration: underline;
-	color: dodgerblue;
+	color: var(--linkword-color);
+	text-decoration: var(--linkword-text-decoration);
 }
 
 .Ulysses{
-	text-decoration: underline;
-	color: dodgerblue;
+	color: var(--linkword-color);
+	text-decoration: var(--linkword-text-decoration);
 }
 
 .tetradecapodous{
-	color: #1475E3;
-	text-decoration: underline;
+	color: var(--linkword-color);
+	text-decoration: var(--linkword-text-decoration);
 }
 
 .telegram:hover{
-	color: #FFB134;
+	color: var(--hover-color);
 }
 
 .legibility:hover{
-	color: #FFB134;
+	color: var(--hover-color);
 }
 
 .Ulysses:hover{
-	color: #FFB134;
+	color: var(--hover-color);
 }
 
 .tetradecapodous:hover{
-	color: #FFB134;
+	color: var(--hover-color);
 }
+
 h3{
 	font-size: 1.5rem;
 	font-weight: 600;
@@ -68,15 +88,6 @@ h3{
 	margin-top: 3.75rem;
 	max-width: 43.75rem;
 	width: 47%;
-}
-
-body{
-	background-color: black;
-	color: white;
-	font-family: sans-serif;
-	font-size: 1.25rem;
-	font-weight: 300;
-	line-height:1.6;
 }
 
 blockquote{
