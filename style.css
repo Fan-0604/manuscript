@@ -45,8 +45,8 @@ h2{
 	margin-inline-start: auto;
 	margin-block-start: 10rem;
 	position: absolute;
-	inset-inline-end: -0.2rem;
-	inset-block-end: 13rem;
+	inset-inline-end: -0.1rem;
+	inset-block-end: 12rem;
 }
 
 nav{
@@ -54,7 +54,7 @@ nav{
 	font-size: 1.2rem;
 	font-family: inter,sans-serif;
 	font-weight: 450;
-	text-decoration: underline;
+	text-decoration: var(--linkword-text-decoration);
 	max-width: 37.5rem;
 	width: 35%;
 	margin-inline-end: 11.95%;
@@ -67,7 +67,7 @@ h3{
 	font-weight: 600;
 	font-family: Asimovian, sans-serif;
 	text-align: right;
-	margin-block-start: 3.75rem;
+	margin-block-start: 3.3rem;
 	max-width: 43.75rem;
 	width: 47%;
 }
@@ -86,8 +86,8 @@ blockquote{
 
 .first-quote{
 	position: absolute;
-	inset-inline-start: 9.6rem;
-	inset-block-end: -7.5rem;
+	inset-inline-start: 9.7rem;
+	inset-block-end: -8.5rem;
 }
 
 .intro{
@@ -99,15 +99,17 @@ blockquote{
 	margin-block-start: 4.7rem;
 }
 
-.MAMMA{
+.mamma{
 	font-family: sans-serif;
+	text-transform: uppercase;
 	font-size: 1.25rem;
 	font-weight: 600;
 }
 
-.OBOLO{
+.obolo{
 	font-family: sans-serif;
 	font-size: 1.25rem;
+	text-transform: uppercase;
 	font-weight: 600;
 }
 
@@ -117,6 +119,19 @@ blockquote{
 	margin-inline-start: auto;
 	margin-inline-end: 12%;
 	margin-block-end: 1.25rem;
+}
+
+.mamma2{
+	color: transparent;
+    -webkit-text-stroke: 0.1rem #FFB134;
+	font-size: 5.5rem;
+	text-transform: uppercase;
+	font-weight: 900;
+	transform: scaleX(1.18);
+	max-width: 37.5rem;
+	width: 35%;
+	margin-inline-start: auto;
+	margin-inline-end: 8.9%;
 }
 
 .first{
@@ -464,4 +479,8 @@ blockquote{
 footer{
 	padding-inline-start: 6rem;
 	padding-block-end: 2rem;
+}
+
+.my-response{
+	font-style: italic;
 }
