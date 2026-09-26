@@ -5,10 +5,11 @@ html{
 body{
 	background-color: black;
 	color: white;
-	font-family: sans-serif;
+	font-family:"Inter", sans-serif;
 	font-size: 1.25rem;
 	font-weight: 300;
 	line-height:1.6;
+	padding-block-start: 3rem;
 }
 
 :root{
@@ -19,65 +20,46 @@ body{
 
 h1{
 	text-transform: uppercase;
-	font-size: 5rem;
-	font-weight: 700;
-	padding-left: 13rem;
+	font-size: 7.625rem;
+	font-weight: 850;
+	line-height: 1.1;
+	padding-inline-start: 6rem;
 }
 
 .shape{
 	text-transform: uppercase;
-	color: white;
-    -webkit-text-stroke: 0.09375rem dodgerblue;
+	color: transparent;
 	font-size: 10rem;
-	font-weight: 900;
+	font-weight: 400;
 	font-family: "Asimovian", sans-serif;
+	-webkit-text-stroke: 0.20rem dodgerblue;
 }
 
 h2{
 	font-size: 1.875rem;
-	font-family: sans-serif;
-	font-weight: 600;
+	font-family: inter,sans-serif;
+	font-weight: 700;
 	max-width: 37.5rem;
-	margin-bottom: 1.25rem;
 	width: 35%;
-	margin-right: 12%;
-	margin-left: auto;
+	margin-inline-end: 12%;
+	margin-inline-start: auto;
+	margin-block-start: 10rem;
+	position: absolute;
+	inset-inline-end: -0.2rem;
+	inset-block-end: 13rem;
 }
 
-.telegram{
+nav{
 	color: var(--linkword-color);
-	text-decoration: var(--linkword-text-decoration);
-}
-
-.legibility{
-	color: var(--linkword-color);
-	text-decoration: var(--linkword-text-decoration);
-}
-
-.Ulysses{
-	color: var(--linkword-color);
-	text-decoration: var(--linkword-text-decoration);
-}
-
-.tetradecapodous{
-	color: var(--linkword-color);
-	text-decoration: var(--linkword-text-decoration);
-}
-
-.telegram:hover{
-	color: var(--hover-color);
-}
-
-.legibility:hover{
-	color: var(--hover-color);
-}
-
-.Ulysses:hover{
-	color: var(--hover-color);
-}
-
-.tetradecapodous:hover{
-	color: var(--hover-color);
+	font-size: 1.2rem;
+	font-family: inter,sans-serif;
+	font-weight: 450;
+	text-decoration: underline;
+	max-width: 37.5rem;
+	width: 35%;
+	margin-inline-end: 11.95%;
+	margin-inline-start: auto;
+	margin-block-start: -4.75rem;
 }
 
 h3{
@@ -85,13 +67,13 @@ h3{
 	font-weight: 600;
 	font-family: Asimovian, sans-serif;
 	text-align: right;
-	margin-top: 3.75rem;
+	margin-block-start: 3.75rem;
 	max-width: 43.75rem;
 	width: 47%;
 }
 
 blockquote{
-	font-family: sans-serif;
+	font-family:inter, sans-serif;
 	font-size: 1.875rem;
 	font-weight: 700;
 	font-style: italic;
@@ -99,16 +81,22 @@ blockquote{
 	text-align: right;
 	max-width: 25rem;
 	width: 60%;
-	margin-top: 2.5rem;
+	margin-block-start: 2.5rem;
+}
+
+.first-quote{
+	position: absolute;
+	inset-inline-start: 9.6rem;
+	inset-block-end: -7.5rem;
 }
 
 .intro{
 	max-width: 37.5rem;
-	margin-bottom: 1.25rem;
+	margin-block-end: 1.25rem;
 	width: 35%;
-	margin-right: 12%;
-	margin-left: auto;
-
+	margin-inline-start: auto;
+	margin-inline-end: 12%;
+	margin-block-start: 4.7rem;
 }
 
 .MAMMA{
@@ -125,38 +113,47 @@ blockquote{
 
 .intro-2{
 	max-width: 37.5rem;
-	margin-bottom: 1.25rem;
 	width: 35%;
-	margin-right: 12%;
-	margin-left: auto;
+	margin-inline-start: auto;
+	margin-inline-end: 12%;
+	margin-block-end: 1.25rem;
 }
 
 .first{
 	max-width: 37.5rem;
-	margin-bottom: 1.25rem;
 	width: 35%;
-	margin-right: 12%;
-	margin-left: auto;
+	margin-block-end: 1.25rem;
+	margin-inline-start: auto;
+	margin-inline-end: 12%;
+}
+
+.telegram{
+	color: var(--linkword-color);
+	text-decoration: var(--linkword-text-decoration);
+}
+
+.telegram:hover{
+	color: var(--hover-color);
 }
 
 .second{
 	max-width: 37.5rem;
 	width: 35%;
-	margin-right: auto;
-	margin-left: 12%;
-	margin-bottom: 1.25rem;
+	margin-inline-start: 12%;
+	margin-inline-end: auto;
+	margin-block-end: 1.25rem;
 }
 
-.word-1{
+.poems{
+	font-family: Asimovian;
+	font-size: 1.625rem;
+}
+
+.complementary-colours{
 	color: #1475E3;
 	background-color: #FFB134;
 	font-weight: 500;
-	padding-left: 0.25rem;
-}
-
-.word-2{
-	font-family: Asimovian;
-	font-size: 1.625rem;
+	padding-inline-start: 0.25rem;
 }
 
 .word-3{
@@ -176,46 +173,62 @@ blockquote{
 
 .third{
 	max-width: 37.5rem;
-	margin-bottom: 1.25rem;
 	width: 35%;
-	margin-right: 12%;
-	margin-left: auto;
+	margin-inline-start: auto;
+	margin-inline-end: 12%;
+	margin-block-end: 1.25rem;
 }
 
-.L{
+.legibility{
+	color: var(--linkword-color);
+	text-decoration: var(--linkword-text-decoration);
+}
+
+.legibility:hover{
+	color: var(--hover-color);
+}
+
+.liverpool{
 	color: transparent;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 0.09375rem white;
+	    -webkit-text-stroke: 0.1rem white;
 	font-size: 5rem;
 	font-weight: 900;
 	letter-spacing: 0.1875rem;
 	max-width: 37.5rem;
-	margin-bottom: -1.25rem;
 	width: 35%;
-	margin-right: 12%;
-	margin-left: auto;
+	margin-block-end: -1.25rem;
+	margin-inline-start: auto;
+	margin-inline-end: 12%;
 }
 
-.H{
+.hull{
 	color: transparent;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 0.09375rem white;
+    -webkit-text-stroke: 0.1rem white;
 	font-size: 5rem;
 	font-weight: 900;
 	letter-spacing: 5.8125rem;
 	max-width: 37.5rem;
-	margin-bottom: 1.25rem;
 	width: 35%;
-	margin-right: 12%;
-	margin-left: auto;
+	margin-block-end: 1.25rem;
+	margin-inline-start: auto;
+	margin-inline-end: 12%;
 }
 
 .fourth-1{
 	max-width: 37.5rem;
 	width: 35%;
-	margin-right: auto;
-	margin-left: 12%;
-	margin-bottom: 0.125rem;
+	margin-inline-start: 12%;
+	margin-inline-end: auto;
+	margin-block-end: 0.125rem;
+}
+
+.Ulysses{
+	color: var(--linkword-color);
+	text-decoration: var(--linkword-text-decoration);
+}
+
+.Ulysses:hover{
+	color: var(--hover-color);
 }
 
 .newspapers{
@@ -224,17 +237,26 @@ blockquote{
 
 .firms{
 	font-weight: 600;
-	margin-left: 6.5265rem;
+	margin-inline-start: 6.5265rem;
 }
 
 .countries{
 	font-weight: 600;
-	margin-left: 11.25rem;
+	margin-inline-start: 11.25rem;
 }
 
 .stars{
 	font-weight: 600;
-	margin-left: 20.625rem;
+	margin-inline-start: 20.625rem;
+}
+
+.tetradecapodous{
+	color: var(--linkword-color);
+	text-decoration: var(--linkword-text-decoration);
+}
+
+.tetradecapodous:hover{
+	color: var(--hover-color);
 }
 
 .Bold{
@@ -244,48 +266,48 @@ blockquote{
 	line-height: 3.5365rem;
 	font-size: 2.5rem;
 	font-weight: 600;
-	margin-right: auto;
-	margin-left: 12%;
+	margin-inline-start: 12%;
+	margin-inline-end: auto;
 }
 
 .fourth-2{
 	max-width: 37.5rem;
 	width: 35%;
-	margin-right: auto;
-	margin-left: 12%;
-	margin-bottom: 1.25rem;
+	margin-inline-start: 12%;
+	margin-inline-end: auto;
+	margin-block-end: 1.25rem;
 }
 
 .fourth-3{
 	max-width: 37.5rem;
 	width: 35%;
-	margin-right: auto;
-	margin-left: 12%;
-	margin-bottom: 1.25rem;
+	margin-inline-start: 12%;
+	margin-inline-end: auto;
+	margin-block-end: 1.25rem;
 }
 
 .fifth{
 	max-width: 37.5rem;
-	margin-bottom: 1.25rem;
 	width: 35%;
-	margin-right: 12%;
-	margin-left: auto;
+	margin-inline-start: auto;
+	margin-inline-end: 12%;
+	margin-block-end: 1.25rem;
 }
 
 .sixth{
 	max-width: 37.5rem;
 	width: 35%;
-	margin-right: auto;
-	margin-left: 12%;
-	margin-bottom: 1.25rem;
+	margin-inline-start: 12%;
+	margin-inline-end: auto;
+	margin-block-end: 1.25rem;
 }
 
 .seventh{
 	max-width: 37.5rem;
 	width: 35%;
-	margin-right: auto;
-	margin-left: 12%;
-	margin-bottom: 1.25rem;
+	margin-inline-start: 12%;
+	margin-inline-end: auto;
+	margin-block-end: 1.25rem;
 }
 
 .t{
@@ -316,34 +338,34 @@ blockquote{
 
 .eighth{
 	max-width: 37.5rem;
-	margin-bottom: 1.25rem;
 	width: 35%;
-	margin-right: 12%;
-	margin-left: auto;
+	margin-inline-start: auto;
+	margin-inline-end: 12%;
+	margin-block-end: 1.25rem;
 }
 
 .nineth{
 	max-width: 37.5rem;
-	margin-bottom: 1.25rem;
 	width: 35%;
-	margin-right: 12%;
-	margin-left: auto;
+	margin-inline-start: auto;
+	margin-inline-end: 12%;
+	margin-block-end: 1.25rem;
 }
 
 .tenth{
 	max-width: 37.5rem;
-	margin-bottom: 1.25rem;
 	width: 35%;
-	margin-right: 12%;
-	margin-left: auto;
+	margin-inline-start: auto;
+	margin-inline-end: 12%;
+	margin-block-end: 1.25rem;
 }
 
 .R1{
 	max-width: 37.5rem;
-	margin-bottom: 1.25rem;
 	width: 35%;
-	margin-right: 12%;
-	margin-left: auto;
+	margin-inline-start: auto;
+	margin-inline-end: 12%;
+	margin-block-end: 1.25rem;
 }
 
 .R1-S1{
@@ -355,37 +377,38 @@ blockquote{
 }
 
 .article-name{
-	text-decoration: underline;
+	color: var(--linkword-color);
+	text-decoration: var(--linkword-text-decoration);
 	font-style: oblique;
 }
 
 .article-name:hover{
-	color: #1475E3;
+	color: var(--hover-color);
 }
 
 .R2{
 	max-width: 37.5rem;
 	width: 35%;
-	margin-right: auto;
-	margin-left: 12%;
-	margin-bottom: 1.25rem;
+	margin-inline-start: 12%;
+	margin-inline-end: auto;
+	margin-block-end: 1.25rem;
 }
 
 .R3{
 	max-width: 37.5rem;
-	margin-bottom: 0.3125rem;
 	width: 35%;
-	margin-right: 12%;
-	margin-left: auto;
+	margin-block-end: 0.3125rem;
+	margin-inline-start: auto;
+	margin-inline-end: 12%;
 }
 
 .R4{
 	max-width: 37.5rem;
-	margin-top: 3.4375rem;
-	margin-bottom: 1.25rem;
 	width: 35%;
-	margin-right: 12%;
-	margin-left: auto;
+	margin-block-start: 3.4375rem;
+	margin-block-end: 1.25rem;
+	margin-inline-start: auto;
+	margin-inline-end: 12%;
 }
 
 .quote{
@@ -394,12 +417,12 @@ blockquote{
 	font-weight: 600;
 	max-width: 75rem;
 	width: 90%;
-	margin-right: 12%;
-	margin-top: 0.3125rem;
-	margin-left: auto;
-	margin-bottom: 2.1875rem;
 	color: white;
 	line-height: 0.7;
+	margin-inline-start: auto;
+	margin-inline-end: 12%;
+	margin-block-start: 0.3125rem;
+	margin-block-end: 2.1875rem;
 }
 
 .quote-mask{
@@ -420,10 +443,10 @@ blockquote{
 	font-weight: 600;
 	font-family: Asimovian, sans-serif;
 	text-align: right;
-	margin-top: 3.75rem;
 	max-width: 37.5rem;
 	width: 35%;
-	margin-left: 13%;
+	margin-block-start: 3.75rem;
+	margin-inline-start: 13%;
 }
 
 .Book-name{
@@ -439,5 +462,6 @@ blockquote{
 }
 
 footer{
-	padding: 3rem;
+	padding-inline-start: 6rem;
+	padding-block-end: 2rem;
 }
