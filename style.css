@@ -184,7 +184,7 @@ em{
 
 .liverpool{
 	color: transparent;
-	    -webkit-text-stroke: 0.1rem white;
+	-webkit-text-stroke: 0.1rem white;
 	font-family: sans-serif;
 	font-size: 5rem;
 	font-weight: 900;
@@ -198,8 +198,8 @@ em{
 
 .hull{
 	color: transparent;
-	font-family: sans-serif;
     -webkit-text-stroke: 0.1rem white;
+	font-family: sans-serif;
 	font-size: 5rem;
 	font-weight: 900;
 	letter-spacing: 5.8125rem;
@@ -210,13 +210,38 @@ em{
 	margin-inline-end: 10.8rem;
 }
 
-.fourth-1{
+.fourth{
 	max-width: 37.5rem;
 	width: 35%;
 	margin-inline-start: 10.8rem;
 	margin-inline-end: auto;
 	margin-block-end: 0.125rem;
 }
+
+.slow-down{
+	text-transform: uppercase;
+	line-height: 3.5365rem;
+	font-size: 2.5rem;
+	font-weight: 600;
+}
+
+.fourth-2{
+	max-width: 37.5rem;
+	width: 35%;
+	margin-inline-start: 10.8rem;
+	margin-inline-end: auto;
+	margin-block-start: 1.25rem;
+	margin-block-end: 1.25rem;
+}
+
+.fifth{
+	max-width: 37.5rem;
+	width: 35%;
+	margin-inline-start: auto;
+	margin-inline-end: 10.8rem;
+	margin-block-end: 1.25rem;
+}
+
 
 .newspapers{
 	font-weight: 600;
@@ -237,40 +262,6 @@ em{
 	margin-inline-start: 20.625rem;
 }
 
-.Bold{
-	max-width: 37.5rem;
-	width: 35%;
-	text-transform: uppercase;
-	line-height: 3.5365rem;
-	font-size: 2.5rem;
-	font-weight: 600;
-	margin-inline-start: 10.8rem;
-	margin-inline-end: auto;
-}
-
-.fourth-2{
-	max-width: 37.5rem;
-	width: 35%;
-	margin-inline-start: 10.8rem;
-	margin-inline-end: auto;
-	margin-block-end: 1.25rem;
-}
-
-.fourth-3{
-	max-width: 37.5rem;
-	width: 35%;
-	margin-inline-start: 10.8rem;
-	margin-inline-end: auto;
-	margin-block-end: 1.25rem;
-}
-
-.fifth{
-	max-width: 37.5rem;
-	width: 35%;
-	margin-inline-start: auto;
-	margin-inline-end: 10.8rem;
-	margin-block-end: 1.25rem;
-}
 
 .sixth{
 	max-width: 37.5rem;
@@ -323,7 +314,7 @@ em{
 	margin-block-end: 1.25rem;
 }
 
-.R1{
+.response-first{
 	max-width: 37.5rem;
 	width: 35%;
 	margin-inline-start: auto;
@@ -331,7 +322,7 @@ em{
 	margin-block-end: 1.25rem;
 }
 
-.R1-S1{
+.highlight{
 	background-color:#FFB134;
 	font-weight: 500;
 	color: #1475E3;
@@ -349,7 +340,7 @@ em{
 	color: var(--hover-color);
 }
 
-.R2{
+.response-second{
 	max-width: 37.5rem;
 	width: 35%;
 	margin-inline-start: 10.8rem;
@@ -357,7 +348,7 @@ em{
 	margin-block-end: 1.25rem;
 }
 
-.R3{
+.response-third{
 	max-width: 37.5rem;
 	width: 35%;
 	margin-block-end: 0.3125rem;
@@ -365,7 +356,7 @@ em{
 	margin-inline-end: 10.8rem;
 }
 
-.R4{
+.response-fourth{
 	max-width: 37.5rem;
 	width: 35%;
 	margin-block-start: 3.4375rem;
@@ -401,7 +392,7 @@ em{
 	top: 0.9375rem;
 }
 
-.Response{
+.Response-name{
 	font-size: 1.5rem;
 	font-weight: 600;
 	text-align: right;
