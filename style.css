@@ -441,6 +441,8 @@ em{
 }
 
 footer{
+	font-size: 0.9rem;
+	color: #aaa;
 	padding-block-start: 5rem;
 	padding-inline-start: 6rem;
 	padding-block-end: 2rem;
