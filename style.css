@@ -289,28 +289,13 @@ em{
 	margin-block-end: 1.25rem;
 }
 
-.t{
-	background-color: dodgerblue;
-	color: dodgerblue;
-}
-
-.r{
+.block-out{
 	background-color: dodgerblue;
 	color: dodgerblue;
 }
 
 .general-shape{
 	font-size: 1.625rem;
-	font-weight: 600;
-	text-transform: uppercase;
-}
-
-.motorways{
-	font-weight: 600;
-	text-transform: uppercase;
-}
-
-.warning{
 	font-weight: 600;
 	text-transform: uppercase;
 }
