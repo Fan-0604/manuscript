@@ -37,11 +37,10 @@ h1{
 
 h2{
 	font-size: 1.875rem;
-	font-family: inter,sans-serif;
 	font-weight: 700;
 	max-width: 37.5rem;
 	width: 35%;
-	margin-inline-end: 12%;
+	margin-inline-end: 10.8rem;
 	margin-inline-start: auto;
 	margin-block-start: 10rem;
 	position: absolute;
@@ -57,9 +56,9 @@ nav{
 	text-decoration: var(--linkword-text-decoration);
 	max-width: 37.5rem;
 	width: 35%;
-	margin-inline-end: 11.95%;
+	margin-inline-end: 10.755rem;
 	margin-inline-start: auto;
-	margin-block-start: -4.75rem;
+	margin-block-start: -4.5rem;
 }
 
 h3{
@@ -69,7 +68,7 @@ h3{
 	text-align: right;
 	margin-block-start: 3.3rem;
 	max-width: 43.75rem;
-	width: 47%;
+	width: 47.5%;
 }
 
 blockquote{
@@ -95,7 +94,7 @@ blockquote{
 	margin-block-end: 1.25rem;
 	width: 35%;
 	margin-inline-start: auto;
-	margin-inline-end: 11.2rem;
+	margin-inline-end: 10.8rem;
 	margin-block-start: 4.7rem;
 }
 
@@ -108,7 +107,7 @@ em{
 	max-width: 37.5rem;
 	width: 35%;
 	margin-inline-start: auto;
-	margin-inline-end: 11.2rem;
+	margin-inline-end: 10.8rem;
 	margin-block-end: 1.25rem;
 }
 
@@ -123,7 +122,7 @@ em{
 	max-width: 37.5rem;
 	width: 35%;
 	margin-inline-start: auto;
-	margin-inline-end: 5.6rem;
+	margin-inline-end: 5.4rem;
 	margin-block-end: -1rem;
 }
 
@@ -132,7 +131,7 @@ em{
 	width: 35%;
 	margin-block-end: 1.25rem;
 	margin-inline-start: auto;
-	margin-inline-end: 11.2rem;
+	margin-inline-end: 10.8rem;
 }
 
 .linkword{
@@ -147,7 +146,7 @@ em{
 .second{
 	max-width: 37.5rem;
 	width: 35%;
-	margin-inline-start: 11.2rem;
+	margin-inline-start: 10.8rem;
 	margin-inline-end: auto;
 	margin-block-end: 1.25rem;
 }
@@ -179,7 +178,7 @@ em{
 	max-width: 37.5rem;
 	width: 35%;
 	margin-inline-start: auto;
-	margin-inline-end: 11rem;
+	margin-inline-end: 10.8rem;
 	margin-block-end: 1.25rem;
 }
 
@@ -194,7 +193,7 @@ em{
 	width: 35%;
 	margin-block-end: -1.25rem;
 	margin-inline-start: auto;
-	margin-inline-end: 11rem;
+	margin-inline-end: 10.8rem;
 }
 
 .hull{
@@ -208,13 +207,13 @@ em{
 	width: 35%;
 	margin-block-end: 1.25rem;
 	margin-inline-start: auto;
-	margin-inline-end: 11.2rem;
+	margin-inline-end: 10.8rem;
 }
 
 .fourth-1{
 	max-width: 37.5rem;
 	width: 35%;
-	margin-inline-start: 11.2rem;
+	margin-inline-start: 10.8rem;
 	margin-inline-end: auto;
 	margin-block-end: 0.125rem;
 }
@@ -245,14 +244,14 @@ em{
 	line-height: 3.5365rem;
 	font-size: 2.5rem;
 	font-weight: 600;
-	margin-inline-start: 11.2rem;
+	margin-inline-start: 10.8rem;
 	margin-inline-end: auto;
 }
 
 .fourth-2{
 	max-width: 37.5rem;
 	width: 35%;
-	margin-inline-start: 11.2rem;
+	margin-inline-start: 10.8rem;
 	margin-inline-end: auto;
 	margin-block-end: 1.25rem;
 }
@@ -260,7 +259,7 @@ em{
 .fourth-3{
 	max-width: 37.5rem;
 	width: 35%;
-	margin-inline-start: 11.2rem;
+	margin-inline-start: 10.8rem;
 	margin-inline-end: auto;
 	margin-block-end: 1.25rem;
 }
@@ -269,14 +268,14 @@ em{
 	max-width: 37.5rem;
 	width: 35%;
 	margin-inline-start: auto;
-	margin-inline-end: 11.2rem;
+	margin-inline-end: 10.8rem;
 	margin-block-end: 1.25rem;
 }
 
 .sixth{
 	max-width: 37.5rem;
 	width: 35%;
-	margin-inline-start: 11.2rem;
+	margin-inline-start: 10.8rem;
 	margin-inline-end: auto;
 	margin-block-end: 1.25rem;
 }
@@ -284,7 +283,7 @@ em{
 .seventh{
 	max-width: 37.5rem;
 	width: 35%;
-	margin-inline-start: 11.2rem;
+	margin-inline-start: 10.8rem;
 	margin-inline-end: auto;
 	margin-block-end: 1.25rem;
 }
@@ -304,7 +303,7 @@ em{
 	max-width: 37.5rem;
 	width: 35%;
 	margin-inline-start: auto;
-	margin-inline-end: 11.2rem;
+	margin-inline-end: 10.8rem;
 	margin-block-end: 1.25rem;
 }
 
@@ -312,7 +311,7 @@ em{
 	max-width: 37.5rem;
 	width: 35%;
 	margin-inline-start: auto;
-	margin-inline-end: 11.2rem;
+	margin-inline-end: 10.8rem;
 	margin-block-end: 1.25rem;
 }
 
@@ -320,7 +319,7 @@ em{
 	max-width: 37.5rem;
 	width: 35%;
 	margin-inline-start: auto;
-	margin-inline-end: 11.2rem;
+	margin-inline-end: 10.8rem;
 	margin-block-end: 1.25rem;
 }
 
@@ -328,7 +327,7 @@ em{
 	max-width: 37.5rem;
 	width: 35%;
 	margin-inline-start: auto;
-	margin-inline-end: 11.2rem;
+	margin-inline-end: 10.8rem;
 	margin-block-end: 1.25rem;
 }
 
@@ -353,7 +352,7 @@ em{
 .R2{
 	max-width: 37.5rem;
 	width: 35%;
-	margin-inline-start: 11.2rem;
+	margin-inline-start: 10.8rem;
 	margin-inline-end: auto;
 	margin-block-end: 1.25rem;
 }
@@ -363,7 +362,7 @@ em{
 	width: 35%;
 	margin-block-end: 0.3125rem;
 	margin-inline-start: auto;
-	margin-inline-end: 11.2rem;
+	margin-inline-end: 10.8rem;
 }
 
 .R4{
@@ -372,7 +371,7 @@ em{
 	margin-block-start: 3.4375rem;
 	margin-block-end: 1.25rem;
 	margin-inline-start: auto;
-	margin-inline-end: 11.2rem;
+	margin-inline-end: 10.8rem;
 }
 
 .quote{
@@ -384,7 +383,7 @@ em{
 	color: white;
 	line-height: 0.7;
 	margin-inline-start: auto;
-	margin-inline-end: 11.2rem;
+	margin-inline-end: 10.8rem;
 	margin-block-start: 0.3125rem;
 	margin-block-end: 2.1875rem;
 }
@@ -405,12 +404,10 @@ em{
 .Response{
 	font-size: 1.5rem;
 	font-weight: 600;
-	font-family: Asimovian, sans-serif;
 	text-align: right;
 	max-width: 37.5rem;
 	width: 35%;
-	margin-block-start: 3.75rem;
-	margin-inline-start: 12.13rem;
+	margin-inline-start: 11.7rem;
 }
 
 .Book-name{
@@ -426,7 +423,7 @@ em{
 }
 
 footer{
-	font-size: 0.9rem;
+	font-size: 1rem;
 	color: #aaa;
 	padding-block-start: 5rem;
 	padding-inline-start: 6rem;
