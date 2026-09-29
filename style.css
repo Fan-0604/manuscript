@@ -1,7 +1,10 @@
-html{
-	font-family: "inter",sans-serif;
+:root{
+	--hover-color: #FFB134;
+	--linkword-color:dodgerblue;
+	--linkword-text-decoration:underline;
 }
 
+/* Base */
 body{
 	background-color: black;
 	color: white;
@@ -14,12 +17,6 @@ body{
 
 header{
 	position: relative;
-}
-
-:root{
-	--hover-color: #FFB134;
-	--linkword-color:dodgerblue;
-	--linkword-text-decoration:underline;
 }
 
 h1{
@@ -87,12 +84,7 @@ blockquote{
 	margin-block-start: 2.5rem;
 }
 
-.first-quote{
-	position: absolute;
-	inset-inline-start: 21.4rem;
-	inset-block-start: 37rem;
-}
-
+/* Intro */
 .intro{
 	max-width: 37.5rem;
 	margin-block-end: 1.25rem;
@@ -102,19 +94,26 @@ blockquote{
 	margin-block-start: 4.7rem;
 }
 
+.first-quote{
+	position: absolute;
+	inset-inline-start: 21.4rem;
+	inset-block-start: 37rem;
+}
+
 em{
 	font-weight: 800;
 	text-transform: uppercase;
 }
 
-.intro-2{
+.intro-second{
 	max-width: 37.5rem;
 	width: 35%;
 	margin-inline-start: auto;
 	margin-inline-end: 10.8rem;
-	margin-block-end: 1.25rem;
+	margin-block-end: 0.2rem;
 }
 
+/* Display Word */
 .mamma{
 	color: transparent;
     -webkit-text-stroke: 0.1rem #FFB134;
@@ -127,17 +126,27 @@ em{
 	width: 35%;
 	margin-inline-start: auto;
 	margin-inline-end: 5.4rem;
-	margin-block-end: -1rem;
+	margin-block-end: -2rem;
 }
 
-.first{
+/* Body Layout */
+.left-column{
 	max-width: 37.5rem;
 	width: 35%;
+	margin-inline-start: 10.8rem;
+	margin-inline-end: auto;
 	margin-block-end: 1.25rem;
-	margin-inline-start: auto;
-	margin-inline-end: 10.8rem;
 }
 
+.right-column{
+	max-width: 37.5rem;
+	width: 35%;
+	margin-inline-start: auto;
+	margin-inline-end: 10.8rem;
+	margin-block-end: 1.25rem;
+}
+
+/* Article */
 .linkword{
 	color: var(--linkword-color);
 	text-decoration: var(--linkword-text-decoration);
@@ -145,14 +154,6 @@ em{
 
 .linkword:hover{
 	color: var(--hover-color);
-}
-
-.second{
-	max-width: 37.5rem;
-	width: 35%;
-	margin-inline-start: 10.8rem;
-	margin-inline-end: auto;
-	margin-block-end: 1.25rem;
 }
 
 .poems{
@@ -178,14 +179,7 @@ em{
 	color:#FFB134;
 }
 
-.third{
-	max-width: 37.5rem;
-	width: 35%;
-	margin-inline-start: auto;
-	margin-inline-end: 10.8rem;
-	margin-block-end: 1.25rem;
-}
-
+/* Display Word */
 .liverpool{
 	color: transparent;
 	-webkit-text-stroke: 0.1rem white;
@@ -214,34 +208,13 @@ em{
 	margin-inline-end: 10.8rem;
 }
 
-.fourth{
-	max-width: 37.5rem;
-	width: 35%;
-	margin-inline-start: 10.8rem;
-	margin-inline-end: auto;
-	margin-block-end: 0.125rem;
-}
-
+/* Special Word */
 .slow-down{
 	text-transform: uppercase;
 	line-height: 3.5365rem;
 	font-size: 2.5rem;
 	font-weight: 600;
 }
-
-.fourth:nth-child(2){
-	margin-block-start: 1.25rem;
-	margin-block-end: 1.25rem;
-}
-
-.fifth{
-	max-width: 37.5rem;
-	width: 35%;
-	margin-inline-start: auto;
-	margin-inline-end: 10.8rem;
-	margin-block-end: 1.25rem;
-}
-
 
 .newspapers{
 	font-weight: 600;
@@ -262,23 +235,6 @@ em{
 	margin-inline-start: 20.625rem;
 }
 
-
-.sixth{
-	max-width: 37.5rem;
-	width: 35%;
-	margin-inline-start: 10.8rem;
-	margin-inline-end: auto;
-	margin-block-end: 1.25rem;
-}
-
-.seventh{
-	max-width: 37.5rem;
-	width: 35%;
-	margin-inline-start: 10.8rem;
-	margin-inline-end: auto;
-	margin-block-end: 1.25rem;
-}
-
 .block-out{
 	background-color: dodgerblue;
 	color: dodgerblue;
@@ -290,44 +246,14 @@ em{
 	text-transform: uppercase;
 }
 
-.eighth{
+/* My Response */
+.Response-name{
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-align: right;
 	max-width: 37.5rem;
 	width: 35%;
-	margin-inline-start: auto;
-	margin-inline-end: 10.8rem;
-	margin-block-end: 1.25rem;
-}
-
-.nineth{
-	max-width: 37.5rem;
-	width: 35%;
-	margin-inline-start: auto;
-	margin-inline-end: 10.8rem;
-	margin-block-end: 1.25rem;
-}
-
-.tenth{
-	max-width: 37.5rem;
-	width: 35%;
-	margin-inline-start: auto;
-	margin-inline-end: 10.8rem;
-	margin-block-end: 1.25rem;
-}
-
-.response-first{
-	max-width: 37.5rem;
-	width: 35%;
-	margin-inline-start: auto;
-	margin-inline-end: 10.8rem;
-	margin-block-end: 1.25rem;
-}
-
-.highlight{
-	background-color:#FFB134;
-	font-weight: 500;
-	color: #1475E3;
-	padding-left: 0.375rem;
-	padding-right: 0.375rem;
+	margin-inline-start: 11.7rem;
 }
 
 .article-name{
@@ -340,12 +266,12 @@ em{
 	color: var(--hover-color);
 }
 
-.response-second{
-	max-width: 37.5rem;
-	width: 35%;
-	margin-inline-start: 10.8rem;
-	margin-inline-end: auto;
-	margin-block-end: 1.25rem;
+.highlight{
+	background-color:#FFB134;
+	font-weight: 500;
+	color: #1475E3;
+	padding-left: 0.375rem;
+	padding-right: 0.375rem;
 }
 
 .response-third{
@@ -392,15 +318,7 @@ em{
 	top: 0.9375rem;
 }
 
-.Response-name{
-	font-size: 1.5rem;
-	font-weight: 600;
-	text-align: right;
-	max-width: 37.5rem;
-	width: 35%;
-	margin-inline-start: 11.7rem;
-}
-
+/* Footer */
 footer{
 	font-size: 1rem;
 	color: #aaa;
