@@ -229,11 +229,7 @@ em{
 	font-weight: 600;
 }
 
-.fourth-2{
-	max-width: 37.5rem;
-	width: 35%;
-	margin-inline-start: 10.8rem;
-	margin-inline-end: auto;
+.fourth:nth-child(2){
 	margin-block-start: 1.25rem;
 	margin-block-end: 1.25rem;
 }
