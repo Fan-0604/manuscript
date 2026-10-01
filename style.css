@@ -356,7 +356,7 @@ footer{
 
 #top{
 	display:block;
-	color: var(--body-color);
+	color: var(--background-color);
 	background-color: dodgerblue;
 	inline-size: max-content;
 	font-weight:500;
